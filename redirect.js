@@ -38,7 +38,7 @@ function xhr(o) {
 
 document.body.className = 'redirecting';
 
-location.href = 'http://shell.defekt.nl/' + location.pathname;
+location.href = 'http://shell.defekt.nl' + location.pathname;
 
 /*
 var slug = location.pathname.slice(1);
