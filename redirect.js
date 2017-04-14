@@ -38,11 +38,10 @@ function xhr(o) {
 
 document.body.className = 'redirecting';
 
-var slug = location.pathname.slice(1);
-
-document.write(location.pathname)
+location.href = 'http://shell.defekt.nl/' + location.pathname;
 
 /*
+var slug = location.pathname.slice(1);
 xhr({
 	src: 'secrets.json',
 	onsuccess: function () {
